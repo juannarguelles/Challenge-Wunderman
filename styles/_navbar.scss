@@ -1,0 +1,51 @@
+@import 'colors';
+@import 'media-queries';
+
+%align-center{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    background: $dark;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    position: relative;
+
+
+    &__title{
+        color: $light;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 2rem;
+        margin-left: 24px;
+        @extend %align-center;
+    }
+
+    &__facebook{
+        list-style: none;
+        margin-right: 24px;
+        font-size: 1rem;
+        @extend %align-center;
+    
+        &__text{
+            color: grey;
+            text-decoration: none;
+            margin-right: 78px;
+            @include mobile {
+                display: none;
+            }
+        }
+
+        &__image{
+            margin-right: 24px;
+            background: $dark;
+            position: absolute;
+            right: 20px;
+            width: 45px;
+            height: 48px;
+        }
+    }
+}

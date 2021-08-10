@@ -1,0 +1,244 @@
+label {
+  display: block;
+}
+
+input::-webkit-input-placeholder {
+  color: #dfdfdf;
+}
+
+input:-ms-input-placeholder {
+  color: #dfdfdf;
+}
+
+input::-ms-input-placeholder {
+  color: #dfdfdf;
+}
+
+input::placeholder {
+  color: #dfdfdf;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+label {
+  display: block;
+}
+
+input::-webkit-input-placeholder {
+  color: gray;
+}
+
+input:-ms-input-placeholder {
+  color: gray;
+}
+
+input::-ms-input-placeholder {
+  color: gray;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: gray;
+}
+
+.container__form {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+.form__contenedor {
+  max-width: 70%;
+  margin: 0 auto;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.name {
+  width: 48%;
+  -webkit-margin-end: auto;
+          margin-inline-end: auto;
+}
+
+@media (max-width: 767px) {
+  .name {
+    width: 100%;
+  }
+}
+
+.lastname {
+  width: 48%;
+}
+
+@media (max-width: 767px) {
+  .lastname {
+    width: 100%;
+  }
+}
+
+.email {
+  width: 100%;
+}
+
+.select {
+  width: 48%;
+  -webkit-margin-end: auto;
+          margin-inline-end: auto;
+}
+
+@media (max-width: 767px) {
+  .select {
+    width: 100%;
+  }
+}
+
+.select_1 {
+  width: 48%;
+}
+
+@media (max-width: 767px) {
+  .select_1 {
+    width: 100%;
+  }
+}
+
+.ci {
+  width: 48%;
+  -webkit-margin-end: auto;
+          margin-inline-end: auto;
+}
+
+@media (max-width: 767px) {
+  .ci {
+    width: 100%;
+  }
+}
+
+.enviar_btn {
+  cursor: pointer;
+  width: 20%;
+  border: none;
+  background: #4da6e4;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+@media (max-width: 767px) {
+  .enviar_btn {
+    width: 100%;
+  }
+}
+
+.label_select {
+  font-size: 25px;
+  margin-bottom: -44px;
+  z-index: 1;
+  position: relative;
+  padding: 0px 10px 0 20px;
+  pointer-events: none;
+  color: grey;
+}
+
+@media (max-width: 767px) {
+  .label_select {
+    width: 100%;
+  }
+}
+
+.checkbox {
+  width: 48%;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .checkbox {
+    width: 100%;
+  }
+}
+
+.ifta-label {
+  font-size: 14px;
+  margin-bottom: -30px;
+  z-index: 1;
+  position: relative;
+  padding: 0px 10px 0 20px;
+  pointer-events: none;
+}
+
+.ifta-field {
+  font-size: 25px;
+  border: 0;
+  border-radius: 6px;
+  padding: 35px 20px 15px;
+  margin: 0 0 20px;
+  width: 100%;
+  -webkit-box-shadow: inset 0 0 0 1px #bdbdbd;
+          box-shadow: inset 0 0 0 1px #bdbdbd;
+}
+
+.ifta-field:focus {
+  -webkit-appearance: none;
+  outline: none;
+  -webkit-box-shadow: inset 0 0 0 2px #007bff;
+          box-shadow: inset 0 0 0 2px #007bff;
+}
+
+.group {
+  width: 100%;
+}
+
+.group:focus-within label {
+  color: #007bff !important;
+}
+/*# sourceMappingURL=form.css.map */
